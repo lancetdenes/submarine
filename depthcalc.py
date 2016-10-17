@@ -32,7 +32,7 @@ timeto80 = endtime-starttime
 minutes = timeto80/60
 seconds = timeto80%60
 
-print minutes,':',seconds
+print 'The time to get to 80 meters is: ', minutes,'minutes',seconds, 'seconds'
 
 start80 = []
 i = 0
@@ -46,7 +46,7 @@ timeover80 = start80[-1] - start80[0]
 minutes = timeover80/60
 seconds = timeover80%60
 
-print minutes,':',seconds
+print 'The time over 80 meters is: ',  minutes,'minutes',seconds,'seconds'
 
 maxval = max(depthlist)
 
